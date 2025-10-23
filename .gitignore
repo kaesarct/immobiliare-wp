@@ -35,7 +35,7 @@ wp-config.php
 # htaccess
 /.htaccess
 
-.env.example
+.env
 
 # All plugins
 #
