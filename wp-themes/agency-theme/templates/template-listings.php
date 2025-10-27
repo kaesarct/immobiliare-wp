@@ -24,7 +24,7 @@ get_header(); ?>
             echo paginate_links(["total" => $query->max_num_pages]);
             ?>
 <?php else : ?>
-            <p><?php esc_html_e("Nessuna proprietà  trovata.", "agency-theme"); ?></p>
+            <p><?php esc_html_e("Nessuna proprietà  trovata.", "agency-theme"); ?></p>
 <?php endif; wp_reset_postdata(); ?>
 
 </main>
